@@ -1,0 +1,38 @@
+#  output_pins.cfg
+
+
+#[output_pin ps_on_pin]
+#pin: PC3
+
+#[neopixel my_neopixel_1]
+#pin: PB15
+
+#[neopixel my_neopixel_2]
+#pin: PA9
+
+#[hall_filament_width_sensor]
+#adc1: PC5
+#adc2: PB0
+
+#[adxl345]
+#cs_pin: PB15
+#spi_bus: spi1
+#####################################################################
+#   LED Control
+#####################################################################
+
+#[output_pin caselight]
+# Chamber Lighting - HE2 Connector (Optional)
+#pin: PB6
+#pwm:true
+#shutdown_value: 0
+#value:1
+#cycle_time: 0.01
+
+#[output_pin extruder]
+## Chamber Lighting - HE2 Connector (Optional)
+#pin: PB15
+#pwm:true
+#shutdown_value: 0
+#value:1
+#cycle_time: 0.01
